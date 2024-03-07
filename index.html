@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <title>Site de Currículo Pessoal</title>
+    <link rel="icon" type="image/x-icon" href="./projeto/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="descripion" content="Currículo feito nas aulas de Construção de Software para WEB na UVV em 2024">
+    <meta name="author" content="Teo Giambarba">
+</head>
+
+<body>
+    <h6>Bem vindo ao site!</h6>
+    <h1><i>Teo Giambarba</i></h1>
+    <img src="./projeto/placeholder.png" width=200px alt="Minha foto">
+
+    <hr>
+
+    <h3><i>Sobre Mim</i></h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Ratione, eum soluta. Sequi, recusandae illum reprehenderit distinctio cupiditate,<br>
+        alias, fugit assumenda placeat eveniet iusto tempore!<br>
+        Non obcaecati maiores illo iure minus?
+    </p>
+    <p>Tentando seguir a 1a Lei de Abrantes: <br>
+        <q>O aprendizado é diretamente proporcional a quantidade e inversamente proporcional ao tamanho de seus
+            lápis.</q>
+    </p>
+
+    <h3><i>Emprego Atual</i> </h3>
+    <p>Estudante de Ciência da Computação na Universidade de Vila Velha!</p>
+    <h3><i>Formação Acadêmica</i> </h3>
+    <p>Ensino médio completo, atualmente cursando o ensino superior.</p>
+
+    <h3><i>Tabelas</i></h3>
+    <table border="1">
+        <thead>
+            <caption>Cursos</caption>
+            <th>Nome</th>
+            <th>Tipo</th>
+            <th>Data de Início</th>
+            <th>Data de Término</th>
+            <th>Observações</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ifes</td>
+                <td>Técnico</td>
+                <td>2018</td>
+                <td>2020 :(</td>
+            </tr>
+
+            <tr>
+                <td>Drawabox</td>
+                <td>Arte</td>
+                <td>2023</td>
+                <td>cursando</td>
+                <td rowspan="2">Continuo usando esses materiais!</td>
+            </tr>
+
+            <tr>
+                <td>Pixel Logic</td>
+                <td>Arte</td>
+                <td>2023</td>
+                <td>2024</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Adicione mais cursos aqui</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <table border="1">
+        <thead>
+            <caption>Horários de Aula</caption>
+            <th></th>
+            <th>SEG</th>
+            <th>TER</th>
+            <th>QUA</th>
+            <th>QUI</th>
+            <th>SEX</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>7:15 - 8:55</th>
+                <td>BancoD</td>
+                <td>ConWeb</td>
+                <td>Lógica</td>
+                <td>ConWeb</td>
+                <td>UXDesign</td>
+            </tr>
+            <tr>
+                <th>9:15 - 10:55</th>
+                <td>Fundam</td>
+                <td>Lógica</td>
+                <td>BancoD</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">Não perca a aula do Goatbrantes!</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <h3><i>Projetos Atuais</i></h3>
+    <ol>
+        <li>Site de Currículo (este mesmo)</li>
+        <li>Assistir o vídeo de 6 horas do abrantes</li>
+        <li>Projeto inicial de Textos Científicos da UVV</li>
+    </ol>
+
+    <h3><i>Projetos Finalizados</i></h3>
+    <ol>
+        <li>Projeto de Heurística (UX Design)</li>
+    </ol>
+
+    <h3><i>Habilidades e Interesses</i></h3>
+    <ul>
+        <li>Diversas linguagens de progamação (<em><strong>no futuro</strong></em>)</li>
+        <li></li>
+        <li>Pixel Art</li>
+        <li>Jogos Digitais (muita habilidade)</li>
+    </ul>
+
+    <hr>
+    <h1><i>Portfólio de arte</i></h3>
+        <hr>
+
+        <h4>Links Úteis</h4>
+        <a href="https://uvv.br/portal-do-aluno/" target="_blank"> <img src="./projeto/uvv_icone.png" width=80px
+                alt="Ícone UVV" title="Site da Uvv"></a>
+        <a href="https://github.com/Teo-Giambarba" target="_blank"><img src="./projeto/github image.png" width=40px
+                alt="Ícone Github" title="Site do Github"></a>
+
+        <h3>Formulários</h3>
+        <form action="">
+            <label for="fname">Primeiro Nome</label><br>
+            <input type="text" name="fname" value="Fulano"><br>
+            <label for="lname">Último Nome</label><br>
+            <input type="text" name="lname" value="da Silva"><br>
+
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" required><br>
+
+            <label for="mensagem">Sua Mensagem aqui! </label><br>
+            <textarea name="mensagem" cols="30" rows="10"
+                style="resize: none; background-color: aliceblue;"></textarea><br>
+
+            <label for="datanasc">Data de Nascimento</label><br>
+            <input type="date" name="datanasc"><br>
+
+            <label for="corpref">Cor preferida</label><br>
+            <input type="color" name="corpref"><br>
+
+            <label for="fotoenviada">Envie sua foto aqui</label><br>
+            <input type="file" name="fotoenviada"><br>
+
+            <p>- Gatos ou Cachorros? -</p>
+            <label for="gatos"></label>Gatos
+            <input type="radio" name="gatocachorros" id="gatos" value="gatos" checked>
+            <label for="cachorros"></label>Cachorros
+            <input type="radio" name="gatocachorros" id="cachorros" value="cachorros"><br>
+            <input type="button" name="botao" onclick="alert('Alerta!')" value="Botao" id="botao"><br>
+
+            <label for="favnumber">Número Favorito</label>
+            <input type="range" name="favnumber" id="favnumber" min="0" max="999"><br><br>
+
+            <input type="submit">
+            <input type="reset">
+        </form>
+
+        <h2>Hyperlinks</h2>
+        <a href="contatos.html">Contatos</a>
+</body>
+
+</html>
